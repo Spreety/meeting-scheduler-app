@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="860.0" prefWidth="1410.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SchedulerController">
+   <children>
+      <AnchorPane layoutY="-6.0" prefHeight="868.0" prefWidth="1410.0" style="-fx-background-color: #bdd9dd;">
+         <children>
+            <AnchorPane layoutY="2.0" prefHeight="856.0" prefWidth="1410.0">
+               <children>
+                  <TableView fx:id="schedulerTable" layoutX="62.0" layoutY="115.0" prefHeight="649.0" prefWidth="1259.0">
+                     <columns>
+                        <TableColumn fx:id="appointmentIDColumn" prefWidth="96.0" text="Meeting ID" />
+                        <TableColumn fx:id="titleColumn" prefWidth="141.9625244140625" text="Title" />
+                        <TableColumn fx:id="descriptionColumn" prefWidth="202.0374755859375" text="Description" />
+                        <TableColumn fx:id="locationColumn" prefWidth="154.79855346679688" text="Location" />
+                        <TableColumn fx:id="contactColumn" prefWidth="146.2705078125" text="Contact" />
+                        <TableColumn fx:id="typeColumn" prefWidth="137.36968994140625" text="Type" />
+                        <TableColumn fx:id="startDateColumn" prefWidth="142.0" text="Start Date" />
+                        <TableColumn fx:id="endDateColumn" prefWidth="142.0" text="End Date" />
+                        <TableColumn fx:id="customerIDColumn" prefWidth="92.0" text="Employee ID" />
+                     </columns>
+                  </TableView>
+                  <Button layoutX="64.0" layoutY="784.0" mnemonicParsing="false" onAction="#scheduleButton" prefHeight="40.0" prefWidth="152.0" text="Schedule Meeting" />
+                  <Button layoutX="234.0" layoutY="783.0" mnemonicParsing="false" onAction="#UpdateButton" prefHeight="40.0" prefWidth="137.0" text="Update Meeting" />
+                  <Button layoutX="1261.0" layoutY="789.0" mnemonicParsing="false" onAction="#logoutButton" prefHeight="27.0" prefWidth="59.0" text="Logout" />
+                  <Button layoutX="387.0" layoutY="783.0" mnemonicParsing="false" onAction="#cancelButton" prefHeight="40.0" prefWidth="130.0" text="Cancel Meeting" />
+                  <ToggleButton fx:id="weeklyButtonToggle" layoutX="1161.0" layoutY="73.0" mnemonicParsing="false" onAction="#weeklyButton" prefHeight="42.0" prefWidth="59.0" text="Weekly" />
+                  <ToggleButton fx:id="monthlyButtonToggle" layoutX="1220.0" layoutY="73.0" mnemonicParsing="false" onAction="#monthlyButton" prefHeight="42.0" prefWidth="63.0" text="Monthly" />
+                  <Button layoutX="64.0" layoutY="54.0" mnemonicParsing="false" onAction="#viewCustomersButton" prefHeight="40.0" prefWidth="123.0" text="View Employees" />
+                  <ToggleButton fx:id="allButtonToggle" layoutX="1283.0" layoutY="73.0" mnemonicParsing="false" onAction="#allButton" prefHeight="42.0" prefWidth="37.0" text="All" />
+                  <Button layoutX="216.0" layoutY="54.0" mnemonicParsing="false" onAction="#reportsButton" prefHeight="40.0" prefWidth="123.0" text="Reports" />
+                  <TextField fx:id="meetingSearchBox" layoutX="738.0" layoutY="55.0" prefHeight="40.0" prefWidth="215.0" promptText="Search" />
+                  <Button layoutX="958.0" layoutY="54.0" mnemonicParsing="false" onAction="#meetingSearchButton" prefHeight="40.0" text="Search" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
