@@ -11,7 +11,7 @@ public class DatabaseConnection {
     //JDBC Connection Parts
     private static final String protocol = "jdbc";
     private static final String vendor = ":mysql:";
-    private static final String serverName = "//wgudb.ucertify.com/WJ062WQ?autoReconnect=true&useSSL=false";
+    private static final String serverName = "";
 
     //concatenates all parts to form the URL
     private static final String jdbcURL = protocol + vendor + serverName;
@@ -21,10 +21,10 @@ public class DatabaseConnection {
     private static Connection connect = null;
 
     //username
-    private static final String username = "U062WQ";
+    private static final String username = "";
 
     //password
-    private static final String password = "53688675754";
+    private static final String password = "";
 
     //This starts the database connection
     public static Connection startConnection() {
