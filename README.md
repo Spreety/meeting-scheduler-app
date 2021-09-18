@@ -8,7 +8,7 @@ The user has the ability to view upcoming meetings for the week or month, as wel
 the user to add, update, and delete employees. Reports are able to be generated that show either employee appointment totals, 
 employees by Country, or employee schedules.
 
-This project was my Capstone project for my BA in Software Developement. 
+This project was my Capstone project for my BS in Software Developement. 
 
 Author: Melissa Epperson
 Capstone version 1
