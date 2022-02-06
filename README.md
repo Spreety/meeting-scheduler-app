@@ -39,7 +39,7 @@ This is the first screen you see upon logging on. It lists all of the scheduled 
 <img width="706" alt="Schedule Screenshot" src="https://user-images.githubusercontent.com/25159870/150701027-c0089e8d-fc4f-49d5-b9bf-4915b94bc1cc.jpg">
 
 **Add Meeting Screen**
-This screen allows you to create a new appointment.It will alert you if you are scheduling an appointment outside of business hours. It will also alert you if the selected contact has a conflicting appointment already scheduled. 
+This screen allows you to create a new appointment.  It will alert you if you are scheduling an appointment outside of business hours. It will also alert you if the selected contact has a conflicting appointment already scheduled. 
 
 <img width="598" alt="Add Appointment Screenshot" src="https://user-images.githubusercontent.com/25159870/150700900-3a342313-8e8b-4d51-b2f5-bd9f46e96d03.jpg">
 
